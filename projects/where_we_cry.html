@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111160453-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-111160453-1');
+        </script>
+        <link rel="shortcut icon" type="image/png" href="../assets/img/favicon.png"/>
+        <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="../assets/css/projects.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js"></script>
+        <title>Where We Cry</title>
+	</head>
+	<body>
+    <div id="pseudobody"> <!-- overflow hidden doesn't work on body on mobile -->
+        <div id="content">
+            <a href="../" id="back">< Go Back</a>
+            <div id="image-header">
+                <div id="image"><img src="../assets/img/where-we-cry.jpg"></div>
+                <div id="title">Where We Cry</div>
+            </div>
+            <div class="section">
+                <p class="text">
+                    Mental health is an important issue to me, and I hope that by talking about and sharing experiences, we can destigmatize negative connotations surrounding those who are affected by it. <br> <br>
+                    For The Daily Californian's <a href="http://www.dailycal.org/section/special/mental-health-issue-2017/" target="_blank">2017 Mental Health special issue</a>, I created a map that visualizes where people cry on campus, and why. The page allows users to submit their own locations and text to the map, which is added after being reviewed. As of December 9th, 2017, we have received nearly 600 responses. <br> <br>In addition to the map, my co-reporter Avni Prasad and I interviewed and wrote articles about the individuals behind selected responses. 
+                </p>
+                <div class="section-image" style="cursor:initial;"><a href="http://projects.dailycal.org/2017/where-we-cry/" target="_blank"><img src="../assets/img/where-we-cry-screenshot.png"></a></div>
+                <p class="caption">A screenshot of the map and embedded submission form. Click image to view online map and article.</p>
+                <p class="text">You can check out the map and article <a href="http://projects.dailycal.org/2017/where-we-cry/" target="_blank">here</a>.</p>
+            </div>
+            <div class="section">
+                <div class="section-title">How it was made</div>
+                <p class="text">
+                    I used <a href="http://leafletjs.com/" target="_blank">Leaflet</a> to create the map, Google Forms API for the submissions, and <a href="https://github.com/dailycal-projects/generator-dailycal-projects" target="_blank">Daily Cal's project generator framework</a> to construct the page. All the code can be found in our <a href="https://github.com/dailycal-projects/where-we-cry" target="_blank">public GitHub repository</a>. The project was inspired by <a href="http://mitadmissions.org/blogs/entry/a-comprehensive-guide-to-crying-on-campus" target="_blank">this MIT admissions blog post</a>. 
+                </p>
+            </div>
+            <div id="footer">
+                <div id="footer-container">
+                    <div class="footer-header">Check out more of my projects:</div>
+                    <div id="footer-projects">
+                    </div>
+                    <a href="../">Back to the main page</a>
+                </div>
+            </div>
+        </div>
+    </div>
+	</body>
+	<script type="text/javascript" src="../assets/js/projects.js"></script>
+</html>
