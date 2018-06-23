@@ -79,6 +79,7 @@
 #tasks a {
     position: relative;
     left: 60px
+    bottom: 60px
     display: block;
     transition: 0.8s ease-in-out;
     opacity: 0;
@@ -228,7 +229,7 @@ section {
 }
 
 a {
-    color: brown;
+    color: green;
     text-decoration: none;
     transition: 0.2s all;
     font-family: 'Quicksand', sans-serif;
