@@ -174,7 +174,7 @@
 .card {
     position: relative;
     overflow: hidden;
-    color: green;
+    color: black;
     transition: 0.4s all;
     opacity: 0;
     vertical-align: top;
@@ -226,7 +226,7 @@ a {
     color: brown;
     text-decoration: none;
     transition: 0.2s all;
-    font-family: 'Kalam', handwriting;
+    font-family: 'Quicksand', sans-serif;
     display: block;
 }
 
