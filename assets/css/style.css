@@ -68,7 +68,7 @@
     position: absolute;
     background: rgba(255, 255, 255, 0.9); /* reduced opacity */
     top: 17px;
-    right: 17px;
+    
     padding: 12px;
     width: 17vw;
     min-height: 20vh;
@@ -78,6 +78,7 @@
 
 #tasks a {
     position: relative;
+    left: 30px
     display: block;
     transition: 0.8s ease-in-out;
     opacity: 0;
@@ -87,7 +88,7 @@
     position: absolute;
     width: 75%;
     top: 32vh;
-    right: 32vh;
+    
     right: 0vw;
     text-align: right;
     transform: scale(0.9);
@@ -97,6 +98,8 @@
 
 #description p {
     background: rgba(255, 255, 255, 0.8);
+    position: relative;
+    bottom: 30px
     padding: 10px;
     font-size: 14px; 
     transition: 0.8s ease-in-out;
