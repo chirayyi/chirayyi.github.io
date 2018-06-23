@@ -20,7 +20,7 @@
     font-weight: 700;
     margin-bottom: 24px;
     padding-top: 25vh;
-    font-family: 'Ubuntu', Sans Serif;
+    font-family: 'Ubuntu', sans-serif;
     transition: opacity 0.6s;
     opacity: 0;
 }
@@ -150,7 +150,7 @@
 }
 
 .activity-card .card-title {
-    color: var(--emphasis-color);
+    color: yellow;
     font-size: 1.2em;
 }
 
@@ -174,7 +174,7 @@
 .card {
     position: relative;
     overflow: hidden;
-    color: var(--emphasis-color);
+    color: green;
     transition: 0.4s all;
     opacity: 0;
     vertical-align: top;
@@ -194,7 +194,7 @@
 }
 
 .card-links a {
-    color: var(--main-text-color);
+    color: pink;
     padding: 0;
     width: 100%;
     opacity: 0.6;
@@ -223,7 +223,7 @@ section {
 }
 
 a {
-    color: var(--emphasis-color);
+    color: orange;
     text-decoration: none;
     transition: 0.2s all;
     font-family: 'Inconsolata', monospace;
@@ -245,7 +245,7 @@ a:hover {
 /* CONTACT */
 #background-fill {
     width: 100vw;
-    background: var(--emphasis-color);
+    background: blue;
     height: 0;
     position: absolute;
     left: 50%;
@@ -255,7 +255,7 @@ a:hover {
 }
 
 #contact .name, #contact a, #contact p {
-    color: white;
+    color: black;
     opacity: 0;
     transition: opacity 0.6s;
 }
@@ -289,7 +289,7 @@ a:hover {
 html {
     margin: 0 auto;
     position: relative;
-    font-family: 'Karla', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 
 h1 {
@@ -302,9 +302,9 @@ body {
     position: relative;
     margin: 0 auto;
     background: #fafafa;
-    --main-text-color: rgba(0, 0, 0, 0.8);
+    --main-text-color: Cerise;
     /*--emphasis-color: #DDB3B3;*/
-    --emphasis-color: #95C2EE;
+    --emphasis-color: Red;
 }
 
 @media (max-width: 650px) {
