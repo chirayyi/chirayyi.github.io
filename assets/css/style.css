@@ -14,7 +14,7 @@
 
 /** INTRO **/
 .name {
-    color: brown;
+    color: green;
     font-size: 2.5em;
     line-height: 1em;
     font-weight: 700;
@@ -78,7 +78,7 @@
 
 #tasks a {
     position: relative;
-    left: 30px
+    left: 60px
     display: block;
     transition: 0.8s ease-in-out;
     opacity: 0;
