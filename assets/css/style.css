@@ -67,7 +67,8 @@
 #tasks {
     position: absolute;
     background: rgba(255, 255, 255, 0.9); /* reduced opacity */
-    top: 7px;
+    top: 17px;
+    left: 17px;
     padding: 12px;
     width: 17vw;
     min-height: 20vh;
@@ -85,7 +86,8 @@
 #description {
     position: absolute;
     width: 75%;
-    top: 10vh;
+    top: 32vh;
+    left: 32vh;
     right: 0vw;
     text-align: right;
     transform: scale(0.9);
