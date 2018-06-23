@@ -68,7 +68,7 @@
     position: absolute;
     background: rgba(255, 255, 255, 0.9); /* reduced opacity */
     top: 17px;
-    left: 17px;
+    right: 17px;
     padding: 12px;
     width: 17vw;
     min-height: 20vh;
@@ -87,7 +87,7 @@
     position: absolute;
     width: 75%;
     top: 32vh;
-    left: 32vh;
+    right: 32vh;
     right: 0vw;
     text-align: right;
     transform: scale(0.9);
