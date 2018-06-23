@@ -14,7 +14,7 @@
 
 /** INTRO **/
 .name {
-    color: var(--emphasis-color);
+    color: brown;
     font-size: 2.5em;
     line-height: 1em;
     font-weight: 700;
@@ -110,7 +110,7 @@
     z-index: -1;
     overflow: hidden;
     background: white;
-    background-color: rgba(149,194,238, 0.6); /* emphasis color + opacity */
+    background-color: rgba(0,0,255,0.3); /* emphasis color + opacity */
 }
 
 /*
