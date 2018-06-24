@@ -14,22 +14,22 @@ $(document).ready(function() {
 	});
 
 	// DECLARED
-	let task = {"UDSA": {
+	let task = {"•UDSA": {
 					"img": "udsa.jpg",
 					"url": "https://www.facebook.com/udsauci/",
 					"descrip": "As the Resource Acquisition for Undergraduate Data Science Association, I managed the club's funding for tech workshops and quarterly outings. I was also responsible for reaching out to tech companies and invite representatives to educate the club of different fields in the tech industry."
 				},
-				"MediaTek Internship": {
+				"•MediaTek Internship": {
 					"img": "mediatek.jpg",
 					"url": "https://www.mediatek.com/careers/internships",
 					"descrip": "During summer of my freshmen year, I interned at MediaTek in Taiwan and created data-visualizations for websites to inform the public of city-wide issues and events. Displayed statistics to portray some of Taiwan's major issues such as inferior technology.  "
 				},
-				"UCI Writing & Communication Peer Tutor": {
+				"•UCI Writing & Communication Peer Tutor": {
 					"img": "writing.png",
 					"url": "http://www.writingcenter.uci.edu/",
 					"descrip": "As a peer tutor for the UCI Writing&Communication Center, I suggest ways to improve students' writing and editing skills, as well as help students evaluate their sources. We ask open-ended questions to encourage students to think about logic in text."
 				},
-				"UCI Peer Academic Advisor": {
+				"•UCI Peer Academic Advisor": {
 					"img": "paa.jpg", 
 					"url": "http://paap.due.uci.edu/",
 					"descrip": "As a Peer Academic Advisor under the school of ICS, I share tips to students about scheduling classes, different majors and minors, campus resources, and much more, and I'm always willing keep an open ear about students' specific questions." 
