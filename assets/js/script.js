@@ -14,37 +14,28 @@ $(document).ready(function() {
 	});
 
 	// DECLARED
-	let task = {"Google": {
-					"img": "google.jpg",
-					"url": "https://google.com",
-					"descrip": "In summer 2017, I interned at Google's Irvine campus as part of their EP program, where I worked on the front end of an internal data visualization tool, using JavaScript, d3, AngularJs, and CSS"
+	let task = {"Undergraduate Data Science Association": {
+					"img": "udsa.jpg",
+					"url": "https://www.facebook.com/udsauci/",
+					"descrip": "As the Resource Acquisition for UDSA, I managed the club's funding for tech workshops and quarterly outings. I was also responsible for reaching out to tech companies and invite representatives to educate the club of different fields in the tech industry."
 				},
-				"Web Design DeCal": {
-					"img": "wdd.jpg",
-					"url": "http://wdd.io",
-					"descrip": "I'm a head instructor of the Web Design DeCal, a course that teaches front end web design at UC Berkeley. We focus on teaching HTML, CSS, jQuery, and UI/UX principles to students of all majors"
+				"Taiwan MediaTek Internship": {
+					"img": "mediatek.jpg",
+					"url": "https://www.mediatek.com/careers/internships",
+					"descrip": "During summer of my freshmen year, I interned at MediaTek in Taiwan and created data-visualizations for websites to inform the public of city-wide issues and events. Displayed statistics to portray some of Taiwan's major issues such as inferior technology.  "
 				},
-				"Blueprint": {
-					"img": "bp.jpg",
-					"url": "https://calblueprint.io",
-					"descrip": "Blueprint is a tech club at Berkeley that develops pro-bono applications for non profits. I currently work on the Re-plate team, which helps connect businesses with surplus food to local shelters."
+				"UCI Writing & Communication Peer Tutor": {
+					"img": "writing.png",
+					"url": "http://www.writingcenter.uci.edu/",
+					"descrip": "As a peer tutor for the UCI Writing&Communication Center, I suggest ways to improve students' writing and editing skills, as well as help students evaluate their sources. We ask open-ended questions to encourage students to think about logic in text."
 				},
-				"Cal Hacks": {
-					"img": "calhacks.jpg", 
-					"url": "https://calhacks.io",
-					"descrip": "I work on redefining what it means to be a hacker and creator as the diversity director at Cal Hacks. In 2017, I launched CubStart, a mentorship program that guides beginner hackers through their first hackathon" 
+				"UCI Peer Academic Advisor": {
+					"img": "paa.jpg", 
+					"url": "http://paap.due.uci.edu/",
+					"descrip": "As a Peer Academic Advisor under the school of ICS, I share tips to students about scheduling classes, different majors and minors, campus resources, and much more, and I'm always willing keep an open ear about students' specific questions." 
 				},
 				
-				"Daily Cal": {
-					"img": "dailycal.jpg", 
-					"url": "https://projects.dailycal.org",
-					"descrip": "As a project developer at the Daily Californian, I use data and code to create interactive visual stories about UC Berkeley and the surrounding city"
-				},
-				// "Innovative Design": {
-				// 	"img": "innod.jpg",
-				// 	"url": "http://innovativedesign.club",
-				// 	"descrip": "I'm a graphic designer at Innovative design, a student-run creative agency at UC Berkeley, where I do various design work for off-campus clients using my favorite Adobe Creative Cloud tools!"
-				// }
+				
 	}
 
 	// ACTIVITIES
