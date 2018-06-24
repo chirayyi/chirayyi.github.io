@@ -14,12 +14,12 @@ $(document).ready(function() {
 	});
 
 	// DECLARED
-	let task = {"Undergraduate Data Science Association": {
+	let task = {"UDSA": {
 					"img": "udsa.jpg",
 					"url": "https://www.facebook.com/udsauci/",
-					"descrip": "As the Resource Acquisition for UDSA, I managed the club's funding for tech workshops and quarterly outings. I was also responsible for reaching out to tech companies and invite representatives to educate the club of different fields in the tech industry."
+					"descrip": "As the Resource Acquisition for Undergraduate Data Science Association, I managed the club's funding for tech workshops and quarterly outings. I was also responsible for reaching out to tech companies and invite representatives to educate the club of different fields in the tech industry."
 				},
-				"Taiwan MediaTek Internship": {
+				"MediaTek Internship": {
 					"img": "mediatek.jpg",
 					"url": "https://www.mediatek.com/careers/internships",
 					"descrip": "During summer of my freshmen year, I interned at MediaTek in Taiwan and created data-visualizations for websites to inform the public of city-wide issues and events. Displayed statistics to portray some of Taiwan's major issues such as inferior technology.  "
