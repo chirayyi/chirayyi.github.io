@@ -14,7 +14,7 @@
 
 /** INTRO **/
 .name {
-    color: brown;
+    color: green;
     font-size: 2.5em;
     line-height: 1em;
     font-weight: 700;
@@ -68,7 +68,7 @@
     position: absolute;
     background: rgba(255, 255, 255, 0.9); /* reduced opacity */
     top: 17px;
-    left: 75%
+    left: 75px
     padding: 12px;
     width: 17vw;
     min-height: 20vh;
@@ -78,7 +78,7 @@
 
 #tasks a {
     position: relative;
-    left:50%
+    left:75px
     right: 60px
     display: block;
     transition: 0.8s ease-in-out;
@@ -229,7 +229,7 @@ section {
 }
 
 a {
-    color: brown;
+    color: green;
     text-decoration: none;
     transition: 0.2s all;
     font-family: 'Quicksand', sans-serif;
