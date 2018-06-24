@@ -2,21 +2,21 @@ $(document).ready(function() {
 
 	// CONSTANTS
 	let footerLinks = {
-		"Design": {
-			"Nutrition Label": "nutrition_label",
-			"Graphic Design": "graphic_design"
+		"Applications": {
+			"Task Scheduler": "nutrition_label",
+			"Text Editor": "graphic_design"
 		},
 		// "Graphic Design": {
 		// 	"Geofilters": "geofilters",
 		// 	"Logo Design": "logos",
 		// 	"Daily Cal Design": "daily_cal_design",
 		// },
-		"Programming": {
-			"Where We Cry": "where_we_cry",
+		"Python-implemented Games": {
+			"Minesweeper": "where_we_cry",
+			"Othello GUI"
+			"Ball Simulator"
 		},
-		"Fine Art": {
-			"Conceptual": "conceptual_art",
-		}
+		
 	};
 
 
