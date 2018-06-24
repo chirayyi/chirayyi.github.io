@@ -30,8 +30,8 @@ $(document).ready(function() {
 	    let heightAspectRatio = height / width * 100;
 	    let widthAspectRatio = width / height;
 
-	    if (height > $(window).height() * 0.8) {
-	    	image.height($(window).height() * 0.8);
+	    if (height > $(window).height() * 0.9) {
+	    	image.height($(window).height() * 0.9);
 	    	image.width(image.height() * widthAspectRatio);
 	    } 
 
