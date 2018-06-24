@@ -17,7 +17,7 @@ $(document).ready(function() {
 	let task = {"•UDSA": {
 					"img": "udsa.jpg",
 					"url": "https://www.facebook.com/udsauci/",
-					"descrip": "As the Resource Acquisition for Undergraduate Data Science Association, I managed the club's funding for tech workshops and quarterly outings. I was also responsible for reaching out to tech companies and invite representatives to educate the club of different fields in the tech industry."
+					"descrip": "As the Resource Acquisition for Undergraduate Data Science Association, I managed the club's funding for tech workshops and quarterly outings. I was also responsible for inviting representatives from tech companies to educate the club of different fields in the tech industry."
 				},
 				"•MediaTek Internship": {
 					"img": "mediatek.jpg",
