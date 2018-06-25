@@ -238,7 +238,7 @@ p.text {
 }
 
 a {
-    color: var(--emphasis-color);
+    color: black;
     font-family: 'Inconsolata', monospace;
 }
 
