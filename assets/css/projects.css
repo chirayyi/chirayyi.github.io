@@ -1,5 +1,5 @@
 #content {
-    width: 800px;
+    width: 1000px;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -12,7 +12,7 @@
 
 #image-header {
     position: relative;
-    height: 40vh;
+    height: 60vh;
     margin-top: 10vh;
 }
 
@@ -43,7 +43,7 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    width: 85%;
+    width: 75%;
     padding-top: 40%;
 }
 
