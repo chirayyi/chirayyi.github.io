@@ -19,11 +19,7 @@ $(document).ready(function() {
 					"url": "https://www.facebook.com/udsauci/",
 					"descrip": "As the Resource Acquisition for Undergraduate Data Science Association, I managed the club's funding for tech workshops and quarterly outings. I was also responsible for inviting representatives from tech companies to educate the club of different fields in the tech industry."
 				},
-				"•MediaTek Internship": {
-					"img": "mediatek.jpg",
-					"url": "https://www.mediatek.com/careers/internships",
-					"descrip": "During summer of my freshmen year, I interned at MediaTek in Taiwan and created data-visualizations for websites to inform the public of city-wide issues and events. Displayed statistics to portray some of Taiwan's major issues such as inferior technology.  "
-				},
+				
 				"•UCI Writing & Communication Peer Tutor": {
 					"img": "writing.png",
 					"url": "http://www.writingcenter.uci.edu/",
