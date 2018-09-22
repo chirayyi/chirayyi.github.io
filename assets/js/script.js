@@ -19,6 +19,11 @@ $(document).ready(function() {
 					"url": "https://www.facebook.com/udsauci/",
 					"descrip": "As the Resource Acquisition for Undergraduate Data Science Association, I managed the club's funding for tech workshops and quarterly outings. I was also responsible for inviting representatives from tech companies to educate the club of different fields in the tech industry."
 				},
+		    		"•ICS31 Lab Tutor": {
+					"img": "writing.png",
+					"url": "http://www.writingcenter.uci.edu/",
+					"descrip": "Helped students understand python lab/quiz material and participated in weekly lab tutor meetings suggesting ways to improve the tutor program and the python series courses. "
+				},
 				
 				"•UCI Writing & Communication Peer Tutor": {
 					"img": "writing.png",
