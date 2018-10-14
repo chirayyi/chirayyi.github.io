@@ -14,26 +14,27 @@ $(document).ready(function() {
 	});
 
 	// DECLARED
-	let task = {"•UDSA": {
+	let task = {	"•Wing Data Science Intern": {
+		"img": "wing.png",
+		"url": "http://getwingapp.com/",
+		"descrip": "At Wing, I identify useful KPIs such as fulfiller and user activity and write respective SQL querries. I attend weekly meetings to inform officers of my personal evaluation of the Data Science team progress. "
+	},
+				"•UDSA": {
 					"img": "udsa.jpg",
 					"url": "https://www.facebook.com/udsauci/",
-					"descrip": "As the Resource Acquisition for Undergraduate Data Science Association, I managed the club's funding for tech workshops and quarterly outings. I was also responsible for inviting representatives from tech companies to educate the club of different fields in the tech industry."
+					"descrip": "As the Resource Acquisition for Undergraduate Data Science Association, I am responsible for inviting representatives from tech companies to educate the club of core data science skills. Occassionally, I also lead workshops and teach club members popular tools such as R."
 				},
-		    		"•ICS31 Lab Tutor": {
-					"img": "icstutor.jpg",
-					
-					"descrip": "Helped students understand python lab/quiz material and participated in weekly lab tutor meetings suggesting ways to improve the tutor program and the python series courses. "
-				},
+		    	
 				
 				"•UCI Writing & Communication Peer Tutor": {
 					"img": "writing.png",
 					"url": "http://www.writingcenter.uci.edu/",
 					"descrip": "As a peer tutor for the UCI Writing&Communication Center, I suggest ways to improve students' writing and editing skills, as well as help students evaluate their sources. We ask open-ended questions to encourage students to think about logic in text."
 				},
-				"•UCI Peer Academic Advisor": {
+				"•UCI Peer Mentor": {
 					"img": "paa.jpg", 
 					"url": "http://paap.due.uci.edu/",
-					"descrip": "As a Peer Academic Advisor under the school of ICS, I share tips to students about scheduling classes, different majors and minors, campus resources, and much more, and I'm always willing keep an open ear about students' specific questions." 
+					"descrip": "As a Peer Mentor under the school of ICS, I share tips to appointed freshmen about scheduling classes, campus resources, and school-life balance. I'm always willing keep an open ear about students' specific questions!" 
 				},
 				
 				

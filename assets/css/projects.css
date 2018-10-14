@@ -52,17 +52,7 @@
     margin-bottom: 20px;
     cursor: pointer;
 
-    /** 
-
-    Default image ratio is 2:3 using padding-top. 
-    
-    projects.js now includes:;
-
-    1) Detects the height/width aspect ratio of the image.
-    2) Sets padding-top value for the given image to that ratio.
-
-    yay!
-    **/
+   
     width: 100%;
 }
 
