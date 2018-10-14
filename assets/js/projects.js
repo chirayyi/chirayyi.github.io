@@ -6,11 +6,7 @@ $(document).ready(function() {
 			"Task Scheduler": "nutrition_label",
 			"Text Editor": "graphic_design"
 		},
-		// "Graphic Design": {
-		// 	"Geofilters": "geofilters",
-		// 	"Logo Design": "logos",
-		// 	"Daily Cal Design": "daily_cal_design",
-		// },
+		
 		"Python-implemented Games": {
 			"Minesweeper": "where_we_cry",
 			"Othello GUI"
