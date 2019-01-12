@@ -1,5 +1,5 @@
 #content {
-    max-width: 800px;
+    max-width: 600px;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -178,7 +178,7 @@
 
 .card {
     position: relative;
-    
+    overflow: hidden;
     color: black;
     transition: 0.4s all;
     opacity: 0;
