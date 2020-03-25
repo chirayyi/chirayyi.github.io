@@ -1,107 +1,365 @@
 <!DOCTYPE html>
 <html>
-	<head>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111160453-1"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
 
-          gtag('config', 'UA-111160453-1');
-        </script>
+<head>
 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js"></script>
-        <title>Ray Yi</title>
-	</head>
-	<body>
-    <div id="content">
-        <section id="landing">
-            <div class="name">Welcome, I'm Ray Yi</div> 
-            <div id="intro">
-                <img src="assets/img/IMG_4158.JPG" width="50%" height = "50%"/>
-                <p>I'm a junior at UC Irvine studying Data Science and minoring in Management, intrigued by how the advancement of technology has drastically changed the ways of society. </p>
-                <p>Recently, I joined Wing AI Technologies, a startup that uses AI to connect people to products and services they desire in an affordable and on-demand fashion, and I serve as a Data Science intern.</p>
-		<p>I lead/coordinate workshops for the Undergraduate Society of Statistics and Data Science at UCI, work as a peer tutor at the UCI Center in Writing & Communication, and represent UCI Table Tennis Club to compete in collegiate tournaments.
-            
-            <p>My core technical skills consist of Python, C/C++, HTML/CSS/JS, and I'm also adept at statistical software such as R and Tableau. Currently, I'm self-learning SQL and will take a SQL course in the coming quarter.
-		<p>In terms of spoken languages, I'm fluent in English and Mandarin, and intermediate at Spanish. In my free time, you might catch me playing table tennis, basketball, or working out. 	
-		<p>Hope you enjoy my work and thanks for visiting my page!</p>
-            </div>
-            <div id="nav">
-		<a href="#portfolio" id="portfolio-link">Projects I've made</a>
-                <a href="#activities" id="activities-link">Experience</a>
-                
-                <a href="#contact" id="contact-link">Contact</a>
-            </div>
-        </section>
-   
-        
-   
-        <section id="portfolio">
-            <div class="name">Projects I've made</div>
-            <div id="cards-container">
-                <div class="card">
-                    <img src="assets/img/appstore.png">
-                    <div class="card-title">
-                        Applications                        
-                    </div>
-                    <ul class="card-links">   
-                        <li><a href="projects/inventory">Inventory Manager</a></li>
-			<li><a href="projects/text">Text Editor</a></li>
-			<li><a href="projects/task">Task Scheduler</a></li>
-                    </ul>
-                </div>
-                <div class="card">
-                    <img src="assets/img/games.png">
-                    <div class="card-title">
-                        Python-implemented Games                       
-                    </div>
-                    <ul class="card-links">
-                        <li><a href="projects/othello">Othello GUI</a></li>
-			<li><a href="projects/minesweeper">Minesweeper</a></li>
-			<li><a href="projects/ball">Ball Simulator</a></li>
-                        
-                    </ul>
-                </div>
-               
-                
-		
-            </div>
-        </section>
-	    
-	<section id="activities">
-            <div class="name">Experience</div>
-            <div id="mobile-activities"></div>
-            <div id="together">
-                <div id="tasks"></div>
-                <div id="description">
-                    <p>Hover to learn about my experiences</p>
-                </div>
-                <div id="background-img"><img src=""></div>
-            </div>
-        </section> 
-	    
-        <section id="contact">
-            <div id="background-fill"></div>
-            <div class="name">Contact Me!</div>
-            <p>Reach me through the links below. I'm also open to meet up!</p>
-            <ul id="contacts">
-                <li><a href="assets/rayresume2.pdf" target="_blank">Resume</a></li>
-                <li><a href="www.linkedin.com/in/ray-yi" target="_blank">LinkedIn</a></li>
-                <li><a href="mailto:chirayy@uci.edu" target="_blank">Email</a></li>
-           
-                <li><a href="https://github.com/chirayyi" target="_blank">Github</a></li>
-                <li><a href="https://www.facebook.com/profile.php?id=100004539768267" target="_blank">Facebook</a></li>
+    <title>Ray Yi</title>
+    <link rel="icon" href="img/35-512.ico">
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/resume.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+            <span class="d-block d-lg-none">Home</span>
+            <span class="d-none d-lg-block">
+                <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile3.jpg" style="width:200px;height: 150px">
+            </span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+                </li> -->
+                <!-- <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
+                </li> -->
             </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid p-0">
+
+        <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+            <div class="my-auto">
+                <h1 class="mb-0">Ray
+                    <span class="text-primary">Yi</span>
+                </h1>
+                <div class="subheading mb-5">Aspiring Data Scientist / Software Engineer ·
+                    <a href="mailto:yuer1@uci.edu">chirayy@uci.edu</a>
+                </div>
+                <p class="mb-5">Hi, I am currently a senior at UC Irvine, majoring in Data Science with a minor in Management, 
+                    interested in data analytics and the journey to achieve actionable insights. I am equipped with technical internship experience,
+                     winning side projects, and extracurricular leadership positions. I hope to carry the lessons learned thus far to my professional 
+                     career while searching for new ways to grow. The process to tame unstructured data to gain insights for data-driven decisions excites me,
+                      and I particularly enjoy executing full-scale projects with determined teams of people. </p>
+                <p class="mb-5">Aside from programming, I enjoy basketball, ping pong, and trading. Really proud of my ping pong team for making making nationals for the first time and placing fourth last year,
+                     hoping for more wins to come:)) Ask me about my favorite NBA player, our fallen basketball intramural dreams, and thoughts on the current stock market! (Or anything really, I'd love to chat) </p>
+                <ul class="list-inline list-social-icons mb-0">
+                    <li class="list-inline-item">
+                        <a href="mailto:chirayy@uci.edu">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <!-- <li class="list-inline-item">
+                        <a href="https://twitter.com/ryanisaboi1" target="_blank">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li> -->
+                    <li class="list-inline-item">
+                        <a href="https://www.linkedin.com/in/ray-yi/" target="_blank">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/chirayyi" target="_blank">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </section>
+
+        <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
+            <div class="my-auto">
+                <h2 class="mb-5">Experience</h2>
+                
+                <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                    <div class="resume-content mr-auto">
+                        <img class="img-fluid img-profile mx-auto mb-3" src="img/PL.jpg" alt="" style="width:100px;height:50px">
+                        <h3 class="mb-0">Pacific Life </h3> 
+                        <div class="subheading mb-3">Data Science Intern</div>
+                        
+                        <p>
+                            • Built RShiny dashboard that visualizes and ranks policy abnormality from >100,000 policynumbers using PCA,
+                            K-Medoids Clustering, and Manhattan Distance, data wrangling done in SSMS, Alteryx, and R <br>
+                            • Led weekly meetings to discuss feature engineering and app design/functionality for insurance disbursement fraud
+                        </p>
+                    </div>
+                    <div class="resume-date text-md-right">
+                        <span class="text-primary">Aliso Viejo, CA <br> September 2019 - August 2019</span>
+                    </div>
+                </div>
+
+                <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                    <div class="resume-content mr-auto">
+                        <img class="img-fluid img-profile mx-auto mb-3" src="img/wing.jpg" alt="" style="width:60px;height:60px">
+                        <h3 class="mb-0">Wing</h3>
+                        <div class="subheading mb-3">Data Science Intern</div>
+                        <p>
+                            • Identified KPIs such as user browsing habits and order preferences, wrote respective mySQL queries, connected PostgreSQL with Tableau for live data visualization,
+                            increasing personalized commands by 60% <br>
+                            • Scraped web pages of competing prices with BeautifulSoup and merged data with Alteryx for pricing strategy
+                        </p>
+                    </div>
+                    <div class="resume-date text-md-right">
+                        <span class="text-primary">October 2018 - May 2019 <br> Irvine, CA</span>
+                    </div>
+                </div>
+
+                <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                    <div class="resume-content mr-auto">
+                        <img class="img-fluid img-profile mx-auto mb-3" src="img/uciwriting.png" alt="" style="width:60px;height:60px">
+
+                        <h3 class="mb-0">UC Irvine Center in Writing & Communication</h3>
+                        <div class="subheading mb-3">Writing Peer Tutor</div>
+                        <p>
+                            • Suggested ways to improve students' textual analysis logic and received annual evaluation of 9.3/10 <br>
+                            • Prioritized teaching the principles behind grammatical and logical errors so students can apply in future papers
+                        </p>
+                    </div>
+                    <div class="resume-date text-md-right">
+                        <span class="text-primary">December 2016 - May 2018 <br> Irvine, CA</span>
+                    </div>
+                </div>
+
+                <!-- <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                    <div class="resume-content mr-auto">
+                        <h3 class="mb-0">UC Irvine Social Life Networks Lab</h3>
+                        <div class="subheading mb-3">Researcher</div>
+                        <p>
+                            In this lab, I assisted in the development of
+                            <em>Fabric - Health Professional</em>, a mobile application designed to help lower risk for
+                            pre-diabetic
+                            patients via highly customized food recommendations. I iteratively designed multiple
+                            interactive
+                            mockups and prototypes of the iOS application using Sketch and Invision. I then presented
+                            these
+                            designs to university professors and medical professionals to gain usability feedback in
+                            order
+                            to improve the UI/UX of the application.
+                        </p>
+                    </div>
+                    <div class="resume-date text-md-right">
+                        <span class="text-primary">November 2016 - June 2017</span>
+                    </div>
+                </div> -->
+
+                <!-- <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                    <div class="resume-content mr-auto">
+                        <h3 class="mb-0">UC Irvine Paul Merage School of Business</h3>
+                        <div class="subheading mb-3">Student Web Developer</div>
+                        <p>
+                            During my time here, I assisted with the business school's website redesign. In this
+                            process, I used Bootstrap3 and CSS media
+                            queries in order to make the new website mobile responsive. I also created a temporary
+                            Wordpress
+                            website that acted as a placeholder until the redesign was completed.
+                        </p>
+                    </div>
+                    <div class="resume-date text-md-right">
+                        <span class="text-primary">October 2016 - June 2017</span>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+
+        <section class="resume-section p-3 p-lg-5 d-flex d-column" id="projects">
+            <div class="my-auto">
+                <h2 class="mb-5">Selected Projects</h2>
+                <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                    <div class="resume-content mr-auto">
+                        <h3 class="mb-0">Police Killings Data Analysis</h3>
+                        <p>
+                            • Jupyter Notebook that visualizes and interprets impact of variables involved with police killings in the U.S. <br>
+                            • Utilized Pandas, Matplotlib, and Numpy to generate graphs and data frames to reveal patterns in shootings
+                        </p>
+                    </div>
+                </div>
+                <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                    <div class="resume-content mr-auto">
+                        <h3 class="mb-0">KinectBeats - 1st Place HackTech 19 - Python Motion-to-Music Platform</h3>
+                        <p>
+                            • Music platform implemented with Kinect API to map hand gestures to sounds coded with Sonic Pi in Python <br>
+                            • Improved gesture recognition precision and accuracy by tweaking existing gesture images for a more diverse dataset
+                        </p>
+                    </div>
+                </div>
+                <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                    <div class="resume-content mr-auto">
+                        <h3 class="mb-0">Presidential Candidate Twitter Sentiment Analysis</h3>
+                        <p>
+                            • Jupyter Notebook that reveals Twitter perception of 2020 Presidential Candidates using PostgreSQL, SQLAlchemy, Tweepy, and Scikit-Learn <br>
+                            • Designed database schema for Tweets, streamed Tweets in PostgreSQL, and conducted Sentiment Analysis with NLTK package <br>
+                            • Utilized K-Means clustering to group similar tweets of each candidate to understand main topics of discussion for each candidate
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
+            <div class="my-auto">
+                <h2 class="mb-5">Education</h2>
+
+                <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                    <div class="resume-content mr-auto">
+                        <img class="img-fluid img-profile mx-auto mb-3" src="img/UCI.png" alt="" style="width:300px;height:80px">
+                        <div class="subheading mb-3">Major: Bachelor of Science, Data Science</div>
+                        <div>Minor: Business Management</div>
+                        <p>GPA: 3.5/4.0</p>
+                        <div class="subheading mb-0">Relevant Coursework</div>
+                        <p>Programming in Python I-III, Statistical Methods for Data Analysis I-III, Probability & Statistics I-III, Bayesian Statistics, Data Science Capstone Project, Machine Learning,
+                            Database Management, Information Visualization, Data Structures in C++, Analysis of Algorithms 
+                            </p>
+                        <div class="subheading mb-0">Affiliations</div>
+                        <ul>
+                            <li>Undergraduate Data Science Association</li>
+                            <li>UC Irvine Varsity Table Tennis</li>
+                            <li>Donald Bren School of Information and Computer Science Peer Advisory</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="resume-date text-md-right">
+                        <span class="text-primary">Expected Graduation: June 2020</span>
+                    </div>
+                </div>
+
+                <!-- <div class="resume-item d-flex flex-column flex-md-row">
+                    <div class="resume-content mr-auto">
+                        <h3 class="mb-0">Monta Vista High School</h3>
+                        <p>GPA: 3.88/4.00</p>
+                    </div>
+                    <div class="resume-date text-md-right">
+                        <span class="text-primary">August 2011 - June 2015</span>
+                    </div>
+                </div> -->
+
+            </div>
+        </section>
+
+        <!-- <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
+            <div class="my-auto">
+                <h2 class="mb-5">Skills</h2>
+                <ul class="skill-bars">
+                    <li>
+                        <div class="progress percent85">
+                            <span>90%</span>
+                        </div>
+                        <strong>Swift</strong>
+                    </li>
+                    <li>
+                        <div class="progress percent85">
+                            <span>90%</span>
+                        </div>
+                        <strong>Python</strong>
+                    </li>
+                    <li>
+                        <div class="progress percent85">
+                            <span>90%</span>
+                        </div>
+                        <strong>Java</strong>
+                    </li>
+                    <li>
+                        <div class="progress percent65">
+                            <span>70%</span>
+                        </div>
+                        <strong>HTML5</strong>
+                    </li>
+                    <li>
+                        <div class="progress percent65">
+                            <span>70%</span>
+                        </div>
+                        <strong>CSS3</strong>
+                    </li>
+                    <li>
+                        <div class="progress percent45">
+                            <span>50%</span>
+                        </div>
+                        <strong>JavaScript</strong>
+                    </li>
+                </ul>
+                </skill-bars>
+
+        </section> -->
+
+        <!-- <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
+            <div class="my-auto">
+                <h2 class="mb-5">Interests</h2>
+                <p>Apart from being a programmer, I spend a lot of my time reading. Some of the books I have read
+                    recently are
+                    <em>The Hitchhiker's Guide to the Galaxy, How to Win Friends and Influence People</em>, and
+                    <em>The Subtle Art of Not Giving a F*ck</em>. Currently, I am reading
+                    <em>Zero to One</em> written by Blake Masters and Peter Thiel.
+                </p>
+                <p class="mb-0">When I'm not reading, I enjoy hanging out with friends, cooking, playing video games,
+                    and watching TV shows
+                    such as Sherlock and Silicon Valley. Some of my recent hobbies include learning how to play the
+                    guitar
+                    and how to reverse-sear a steak to perfection.
+                </p>
+            </div>
+        </section> -->
+
     </div>
-	</body>
-	<script type="text/javascript" src="assets/js/script.js"></script>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/resume.js"></script>
+
+</body>
+
 </html>

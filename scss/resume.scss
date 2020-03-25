@@ -1,0 +1,215 @@
+// Restate Bootstrap Variables
+
+$white:    #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #868e96 !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black:    #000 !default;
+
+$blue:    #007bff !default;
+$indigo:  #6610f2 !default;
+$purple:  #6f42c1 !default;
+$pink:    #e83e8c !default;
+$red:     #dc3545 !default;
+$orange:  #BD5D38 !default;
+$yellow:  #ffc107 !default;
+$green:   #28a745 !default;
+$teal:    #20c997 !default;
+$cyan:    #17a2b8 !default;
+
+$primary:       $orange !default;
+$secondary:     $gray-600 !default;
+$success:       $green !default;
+$info:          $cyan !default;
+$warning:       $yellow !default;
+$danger:        $red !default;
+$light:         $gray-100 !default;
+$dark:          $gray-800 !default;
+
+// Page Variables
+
+$sidebar-base-width: 17rem;
+
+// Mixins
+// Bootstrap Button Variant
+@mixin background-cover {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  @mixin body-font {
+    font-family: 'Open Sans', serif;
+  }
+  @mixin heading-font {
+    font-family: 'Saira Extra Condensed', serif;
+  }
+
+// Global styling for this template
+
+body {
+    @include body-font;
+    padding-top: 54px;
+    color: $gray-600;
+  }
+  @media (min-width: 992px) {
+    body {
+      padding-top: 0;
+      padding-left: $sidebar-base-width;
+    }
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @include heading-font;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $gray-800;
+  }
+  
+  h1 {
+    font-size: 6rem;
+    line-height: 5.5rem;
+  }
+  
+  h2 {
+    font-size: 3.5rem;
+  }
+  
+  .subheading {
+    text-transform: uppercase;
+    font-weight: 500;
+    @include heading-font;
+    font-size: 1.35rem;
+  }
+  
+  .list-social-icons {
+    a {
+      color: $gray-700;
+      &:hover {
+        color: $primary;
+      }
+      .fa-lg {
+        font-size: 1.75rem;
+      }
+    }
+  }
+  
+  .list-icons {
+    font-size: 3rem;
+    .list-inline-item i {
+      &:hover {
+        color: $primary;
+      }
+    }
+  }
+
+  #sideNav {
+    .navbar-brand {}
+    .navbar-nav .nav-item .nav-link {
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    #sideNav {
+      text-align: center;
+      position: fixed;
+      top: 0;
+      left: 0;
+  
+      display: flex;
+      flex-direction: column;
+  
+      width: $sidebar-base-width;
+      height: 100vh;
+      .navbar-brand {
+        display: flex;
+  
+        margin: auto auto 0;
+        padding: 0.5rem;
+        .img-profile {
+          max-width: 10rem;
+          max-height: 10rem;
+          border: 0.5rem solid fade-out($white, 0.8);
+        }
+      }
+      .navbar-collapse {
+        display: flex;
+        align-items: flex-start;
+        flex-grow: 0;
+  
+        width: 100%;
+        margin-bottom: auto;
+        .navbar-nav {
+          flex-direction: column;
+  
+          width: 100%;
+          .nav-item {
+            display: block;
+            .nav-link {
+              display: block;
+            }
+          }
+        }
+      }
+    }
+  }
+
+section.resume-section {
+  border-bottom: 1px solid $gray-300;
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+  .resume-item {
+    .resume-content {}
+    .resume-date {
+      min-width: none;
+    }
+  }
+}
+@media (min-width: 768px) {
+  section.resume-section {
+    min-height: 100vh;
+    .resume-item {
+      .resume-content {}
+      .resume-date {
+        min-width: 18rem;
+      }
+    }
+  }
+}
+@media (min-width: 992px) {
+  section.resume-section {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+}
+  
+.bg-primary {
+    background-color: $primary !important;
+  }
+  
+  .text-primary {
+    color: $primary !important;
+  }
+  
+  a {
+    color: $primary;
+    &:hover,
+    &:focus,
+    &:active {
+      color: darken($primary, 15%);
+    }
+  }
+  
